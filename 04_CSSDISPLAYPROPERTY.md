@@ -1,5 +1,7 @@
 # EN: The CSS Display Property
 
+This section is about **how the elements will be displayed on the page taking into consideration the box model concept**.
+
 There are four types of display.
 
 1. **Block**
@@ -60,6 +62,8 @@ It gets rid of our element.
 
 ---
 # PT: A Propriedade CSS Display
+
+Essa parte tem a ver em **como os elementos vão se apresentar na tela, levando em consideração o Modelo de Caixa**.
 
 São quatro tipos de display (modo de aparecer na tela).
 
