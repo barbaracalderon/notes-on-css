@@ -31,7 +31,7 @@ There are four types of positioning. They are *STATIC, RELATIVE, ABSOLUTE, FIXED
 Here's a table that might help you remember the tricks.
 
 POSITION | MEANING
----------|--------
+:---------|:--------
 STATIC | Default to HTML
 RELATIVE | Relative to what it should be positioned if it were static (HTML-default).
 ABSOLUTE | Relative to the parent-element (in most cases, the body). This way, all other elements change positions because... the element you're moving, scrolls out of the flow of the default-elements. This is great to **create a parent element and move it... moving also the child-elements according to parent-element**.
@@ -69,7 +69,7 @@ Existem quatro tipos de posicionamentos. Eles são: *STATIC, RELATIVE, ABSOLUTE,
 Essa é uma tabela que pode ajudar a se lembrar dos truquinhos básicos com CSS.
 
 POSIÇÕES | SIGNIFICADO
----------| ------------
+:---------| :------------
 STATIC | É a posição padrão do HTML
 RELATIVE | É a posição relativa à posição de "como deveria ser" se fosse estático (padrão HTML)
 ABSOLUTE | É relativo ao elemento-pai (na maior parte dos casos, é o body). Assim, todos os elementos mudam de posições porque... o elemento que você tá movendo, se move por cima dos elementos padrões. E isso é ótimo para **criat um elemento-pai e depois movê-lo... assim, todos os elementos-filhos também se movem de acordo com esse elemento-pai**. 

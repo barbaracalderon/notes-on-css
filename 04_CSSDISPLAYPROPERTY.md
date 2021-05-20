@@ -16,7 +16,7 @@ I created this so it helps me.
 Maybe it'll help you.
 
 TYPE OF DISPLAY | WIDTH | HORIZON BENCH 
-:----------------|:-------:|:-----------------:
+:----------------|:-------|:-----------------
 BLOCK | You can change it | It sits alone
 INLINE | Nope, can't change it | It sits with friends
 INLINE-BLOCK | You can change it | It sits with friends
@@ -77,7 +77,7 @@ Vamos ver cada um em detalhes.
 *PS: Eu chamo de "banco do horizonte", uma caixa retangular imaginária de altura 1 linha e largura de toda a página. Às vezes apenas um elemento pode sentar nesse banco. Outras vezes, vários elementos podem dividir esse banco e ocupar o mesmo horizonte. Cada linha, em tese, é feita por uma caixa dessa (um banco do horizonte)... já que tratamos de um modelo de caixa aqui.*
 
 TIPO DE DISPLAY | LARGURA (WIDTH) | BANCO DO HORIZONTE
-:----------------|:-------:|:-----------------:
+:----------------|:-------|:-----------------
 BLOCK | Você consegue mudar | Senta sozinho
 INLINE | Não, não dá pra mudar | Pode sentar com amigos
 INLINE-BLOCK | Você consegue mudar | Pode sentar com amigos

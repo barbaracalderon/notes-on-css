@@ -7,7 +7,7 @@ There are two ways: using the ```text-align``` property, or using the ```margin`
 
 
 PROPERTY | WIDTH | SHORTCUT
----------| ------| -----------
+:---------| :------| :-----------
 Text-Align | NO - No width set allowed  | Only works if we are dealing with an inline-block element or full width elements
 Margin | YES - Allows width set | Use "auto" to do this
 
@@ -52,7 +52,7 @@ Vamos imaginar que temos um monte de elementos no nosso HTML e precisamos centra
 Tem dois jeitos: usando a propriedade ```text-align```, ou usando a propriedade ```margin```. 
 
 PROPRIEDADE | LARGURA ('WIDTH') | ATALHO
-------------| ----------------- | ---------
+:------------| :----------------- | :---------
 Text-Align | NÃO - não pode colocar uma width | Só funciona se tiver lidando com um elemento do tipo **inline-block** ou com elementos que ocupem toda a largura da janela
 Margin | SIM - pode colocar uma width | Use o "auto" para fazer isso
 
