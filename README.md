@@ -7,7 +7,7 @@ These are my general notes on the Cascading Style Sheets (CSS). Like a notepad, 
 **CONTENTS**
 
 FILES | CONTENTS
-------| ---------
+:------| :---------
 01_CONNECTFILES.md | Connect your CSS file to HTML
 02_CSSSYNTAX.md | Code, Alphabetical Order, Class Selectors (.), Id Selectors (#), Pseudo-classes
 03_THEBOXMODEL.md | Height, width, border, padding (insinde), margin (outside)
@@ -26,7 +26,7 @@ Essas são as minhas anotações gerais sobre Cascading Style Sheets (CSS). Como
 
 **CONTEÚDOS**
 
-FILES | CONTENTS
+ARQUIVOS | CONTEÚDOS
 :------| :---------
 01_CONNECTFILES.md | Conecte seu arquivo CSS ao HTML
 02_CSSSYNTAX.md | Código, ordem alfabética, seletores de class (.), seletores de Id (#), pseudo-classes
