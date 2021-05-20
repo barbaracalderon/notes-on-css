@@ -19,7 +19,8 @@ The height is defined by the size of the content and the width is not. So, essen
 
 3. **CHILDREN SIT ON PARENTS**
 
- There's a z-axis. This is relative from the screen to the user point of view. It's about what's stacked on top of what. 
+ There's a z-axis. This is relative from the screen to the user point of view. It's about what's stacked on top of what. Child-elements sit on parent-elements. This way, when you move a parent-element, the children-elements stacked on top of it move as well.
+
 
 4. **POSITION**
 
@@ -57,7 +58,7 @@ Primeiro o título, depois o parágrafo, depois... a imagem por último? É voc�
 
 3. **FILHOS SENTAM NOS PAIS**
 
-Existe um eixo-Z. Este eixo é relativo da tela do computador até o usuário. É profundidade. E trata sobre como as coisas estão empilhadas nessa profundidade abstrata. 
+Existe um eixo-Z. Este eixo é relativo da tela do computador até o usuário. É profundidade. E trata sobre como as coisas estão empilhadas nessa profundidade abstrata. Os elementos-filhos estão acima dos elementos-pais. Assim, quando move um elemento-pai, os filhos que estão por cima também se movem.
 
 4. **POSIÇÕES**
 
