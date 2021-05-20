@@ -1,4 +1,4 @@
-# About CSS
+# EN: About CSS
 
 **CONTENTS OF THIS SECTION**
 1. The Anatomy of the CSS Syntax
@@ -85,3 +85,97 @@ selector:pseudo-class {
     property: value;
 }
 ```
+
+---
+# PT: Sobre CSS
+
+**CONTEÚDOS DESSA SEÇÃO**
+1. A anatomia da Sintaxe CSS
+2. Seletores de Classe (.)
+3. Seletores de Id (#)
+4. Pseudo-seletores
+---
+
+# 1. A Anatomia da Sintaxe CSS
+
+Um código CSS tem o seguinte visual.
+
+## Código
+
+```css
+/*Comentários em verde.*/
+/*A SINTAXE CSS*/
+
+selector {property: value;}
+```
+
+- **SELECTOR**: ou "seletor", é **quem** você quer mudar;
+- **PROPERTY**: ou "propriedade", é **o que** você quer mudar;
+- **VALUE**: ou "valor", é **como** você quer mudar aquela propriedade?
+
+## Ordem alfabética
+
+É uma boa prática alinhar as suas propriedades no arquivo CSS de acordo com ordem alfabética.
+
+
+```css
+/*ORDEM ALFABÉTICA*/
+
+selector {
+    a_property: value;
+    b_property: value;
+    c_property: value;
+    d_property: value;
+    }
+```
+
+---
+# 2. Seletor de Classe (.)
+
+O seletor de classe em uma tag HTML ajuda a gente a diferenciar uma tag específica de outras. No HTML, você adiciona ```class="alguma-coisa"```. No arquivo CSS, você adiciona um ponto (.) à frente do nome da classe (no exemplo aqui, é o "alguma-coisa") para invocar o seltor dessa classe. Dessa forma, você consegue diferenciar um grupo de tags HTML para que se comportem de determinada maneira: **é uma identificação de grupo.**
+
+Uma tag HTML pode ter várias classes diferentes. 
+
+```css
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+```
+---
+# 3. Seletor de Id (#)
+
+Assim como o anterior, o seletor de Id dentro de uma tag também ajuda a diferenciar uma tag particular de HTML das demais. Você chama no arquivo CSS por uma hashtag. A diferença é que você só pode identificar uma tag com um nome de Id específico: **é uma identificação única** e não vai ser repetida. 
+
+Uma tag HTML só pode ter um único Id.
+
+```css
+#heading {
+    font-color: blue;
+}
+```
+
+---
+# 4. Pseudo-classes (:)
+
+É uma palavra-chave adicionada para alguns seletores específicos. Eles são adicionados com o símbolo ```:```, por exemplo, a pseudo-classe ```a:hover```.
+
+Estas palavras-chave especificam um tipo especial de estado da tag HTML selecionada. A palavra-chave mais comum é "hover" - ele muda o estado da tag HTML quando você passa o mouse sobre o componente. 
+
+```css
+button:hover {
+    background-color: golden;
+}
+```
+
+De uma maneira mais geral, a sintaxe disso tá logo abaixo. Não existem espaços em branco entre o seletor e a pseudo-classe. É tudo junto mesmo.
+
+```css
+selector:pseudo-class {
+    property: value;
+}
+```
+
