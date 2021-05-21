@@ -102,7 +102,7 @@ Alguns exemplos.
 
 ## 2. Inline
 
-Por padrão, esses elementos apenas ocupam a si mesmo. Isso significa que outros elementos podem sentar com eles no "banco" retangular que ocupa toda a largura de uma página - eçes apenas ocupam seu próprio espaço, outros podem ocupar o horizonte junto com eles.
+Por padrão, esses elementos apenas ocupam a si mesmo. Isso significa que outros elementos podem sentar com eles no "banco" retangular que ocupa toda a largura de uma página - eles apenas ocupam seu próprio espaço, outros podem ocupar o horizonte junto com eles.
 
 Você **não pode mudar a largura (width)** desses elementos. 
 
